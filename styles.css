@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f5f7fa;
+    background-color: #f7f9f7;
     color: #1f1f1f;
     line-height: 1.6;
 }
@@ -27,7 +27,7 @@ header {
     top: 0;
     z-index: 1000;
 
-    background-color: rgba(245,247,250,0.95);
+    background-color: rgba(247,249,247,0.95);
 
     display: flex;
     justify-content: space-between;
@@ -35,7 +35,7 @@ header {
 
     padding: 20px 60px;
 
-    border-bottom: 1px solid #d7dde5;
+    border-bottom: 1px solid #d9e1db;
 
     backdrop-filter: blur(8px);
 }
@@ -45,7 +45,7 @@ header {
     letter-spacing: 4px;
     font-weight: 700;
 
-    color: #4c5b6b;
+    color: #4f6b5a;
 }
 
 nav ul {
@@ -63,7 +63,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #4c5b6b;
+    color: #4f6b5a;
 }
 
 /* HERO */
@@ -73,8 +73,8 @@ nav a:hover {
 
     background-image:
         linear-gradient(
-            rgba(245,247,250,0.40),
-            rgba(245,247,250,0.40)
+            rgba(247,249,247,0.40),
+            rgba(247,249,247,0.40)
         ),
         url('img/banner.jpg');
 
@@ -90,7 +90,7 @@ nav a:hover {
 }
 
 .hero-contenido {
-    background-color: rgba(240,244,248,0.78);
+    background-color: rgba(241,246,242,0.78);
 
     padding: 45px;
 
@@ -118,7 +118,7 @@ nav a:hover {
 .btn-hero {
     display: inline-block;
 
-    background-color: #4c5b6b;
+    background-color: #4f6b5a;
     color: white;
 
     text-decoration: none;
@@ -133,7 +133,7 @@ nav a:hover {
 }
 
 .btn-hero:hover {
-    background-color: #627487;
+    background-color: #64806f;
 
     transform: translateY(-2px);
 }
@@ -153,7 +153,7 @@ section {
     font-size: 2.5rem;
     margin-bottom: 10px;
 
-    color: #4c5b6b;
+    color: #4f6b5a;
 }
 
 .titulo-seccion p {
@@ -163,7 +163,7 @@ section {
 /* PRODUCTOS */
 
 .productos {
-    background-color: #f5f7fa;
+    background-color: #f7f9f7;
 }
 
 .contenedor-productos {
@@ -176,7 +176,7 @@ section {
 .card {
     width: 260px;
 
-    background-color: #eef2f5;
+    background-color: #eef3ef;
 
     border-radius: 18px;
     overflow: hidden;
@@ -208,7 +208,7 @@ section {
 }
 
 .precio {
-    color: #627487;
+    color: #64806f;
 
     font-weight: 500;
 }
@@ -216,7 +216,7 @@ section {
 /* RESEÑAS */
 
 .reseñas {
-    background-color: #e9eef3;
+    background-color: #e8efe9;
 }
 
 .grid-reseñas {
@@ -243,7 +243,7 @@ section {
 }
 
 .reseña h4 {
-    color: #4c5b6b;
+    color: #4f6b5a;
 }
 
 /* VIDEO */
@@ -251,7 +251,7 @@ section {
 .video-section {
     text-align: center;
 
-    background-color: #f5f7fa;
+    background-color: #f7f9f7;
 }
 
 .contenedor-video {
@@ -273,7 +273,7 @@ section {
 /* CONTACTO */
 
 .contacto {
-    background-color: #eef2f5;
+    background-color: #edf3ee;
 }
 
 form {
@@ -304,9 +304,9 @@ input:focus,
 textarea:focus {
     outline: none;
 
-    border-color: #627487;
+    border-color: #64806f;
 
-    box-shadow: 0 0 0 4px rgba(98,116,135,0.20);
+    box-shadow: 0 0 0 4px rgba(100,128,111,0.20);
 }
 
 textarea {
@@ -315,7 +315,7 @@ textarea {
 }
 
 button {
-    background-color: #4c5b6b;
+    background-color: #4f6b5a;
     color: white;
 
     border: none;
@@ -333,7 +333,7 @@ button {
 }
 
 button:hover {
-    background-color: #627487;
+    background-color: #64806f;
 
     transform: translateY(-2px);
 }
@@ -341,7 +341,7 @@ button:hover {
 /* FOOTER */
 
 footer {
-    background-color: #2f3b46;
+    background-color: #2d3b33;
     color: #f5f5f5;
 
     text-align: center;
