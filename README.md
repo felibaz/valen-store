@@ -1,4 +1,6 @@
-# valen store
-Página web para el emprendimiento de ropa masculina llamado "Valen"
+Tecnologías Utilizadas
 
-Autora: María Felipa Bazano
+- HTML5: Estructura semántica del sitio.
+- CSS3: Diseño responsivo y estilizado de la interfaz.
+- JavaScript (ES6+): Lógica funcional, manipulación dinámica del DOM, filtrado de productos, gestión del carrito y persistencia de datos mediante LocalStorage.
+- JSON: Gestión y organización de datos de productos.
