@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALEN | Moda Casual</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <h1>
+            VALEN
+        </h1>
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">
+                    Inicio
+                </a>
+            </li>
+            <li>
+                <a href="ropa.html">
+                    Ropa
+                </a>
+            </li>
+            <li>
+                <a href="accesorios.html">
+                    Accesorios
+                </a>
+            </li>
+            <li>
+                <a href="resenas.html">
+                    Reseñas
+                </a>
+            </li>
+            <li>
+                <a href="contacto.html">
+                    Contacto
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <a 
+        href="carrito.html" 
+        class="carrito-icono">
+        🛒
+        <span id="contador-carrito">
+            0
+        </span>
+    </a>
+</header>
+<main>
+
+<!-- HERO -->
+<section 
+    id="inicio" 
+    class="hero">
+    <div class="hero-contenido">
+        <h2>
+            Encontrá tu look ideal
+        </h2>
+        <p>
+            Diseños modernos y cómodos para todos los días.
+        </p>
+        <div class="hero-botones">
+            <a 
+                href="#productos" 
+                class="btn-hero">
+                Ver colección
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- TODOS LOS PRODUCTOS -->
+
+<section 
+    id="productos"
+    class="productos">
+
+    <div class="titulo-seccion">
+
+        <h2>
+            Nuestra colección
+        </h2>
+
+        <p>
+            Prendas esenciales con estilo
+            contemporáneo.
+        </p>
+    </div>
+
+    <!-- BUSCADOR Y FILTROS -->
+
+    <div class="controles-productos">
+
+        <input
+
+            type="search"
+
+            id="buscador"
+
+            placeholder="Buscar producto..."
+
+        >
+
+        <select id="filtro-categoria">
+
+    <option value="todos">
+        Todas las categorías
+    </option>
+
+    <option value="camisas">
+        Camisas
+    </option>
+
+    <option value="remeras">
+        Remeras
+    </option>
+
+    <option value="chaquetas">
+        Chaquetas
+    </option>
+
+    <option value="pantalones">
+        Pantalones
+    </option>
+
+    <option value="accesorios">
+        Accesorios
+    </option>
+
+</select>
+
+        <select id="orden-productos">
+
+    <option value="">
+        Ordenar por
+    </option>
+
+    <option value="precio-menor">
+        Menor precio
+    </option>
+
+    <option value="precio-mayor">
+        Mayor precio
+    </option>
+
+    <option value="nombre">
+        Nombre A-Z
+    </option>
+
+</select>
+
+    </div>
+
+    <div
+
+        class="contenedor-productos"
+
+        id="contenedor-productos">
+
+    </div>
+
+</section>
+<!-- LOOKBOOK -->
+
+<section class="video-section">
+
+    <div class="titulo-seccion">
+
+        <h2>
+            Lookbook
+        </h2>
+
+        <p>
+            Inspiración y estilo para
+            cada temporada.
+        </p>
+
+    </div>
+
+    <div class="contenedor-video">
+
+        <iframe
+
+            src="https://www.youtube.com/embed/yhfdXkZaTQU"
+
+            title="Video de colección masculina"
+
+            allowfullscreen>
+
+        </iframe>
+
+    </div>
+
+</section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <p>
+
+        © 2026 VALEN -
+        Todos los derechos reservados.
+
+    </p>
+
+</footer>
+
+<!-- JAVASCRIPT -->
+
+<script src="js/productos.js"></script>
+<script src="js/carrito.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

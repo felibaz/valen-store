@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Ropa | VALEN
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
+
+</head>
+
+<body data-categoria="ropa">
+
+<!-- ========================= -->
+<!-- HEADER -->
+<!-- ========================= -->
+
+<header>
+
+    <div class="logo">
+
+        <h1>
+
+            VALEN
+
+        </h1>
+
+    </div>
+
+    <nav>
+
+        <ul>
+
+            <li>
+
+                <a href="index.html">
+
+                    Inicio
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a
+                    href="ropa.html"
+                    class="activo"
+                >
+
+                    Ropa
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="accesorios.html">
+
+                    Accesorios
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="resenas.html">
+
+                    Reseñas
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="contacto.html">
+
+                    Contacto
+
+                </a>
+
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <a
+        href="carrito.html"
+        class="carrito-icono"
+    >
+
+        🛒
+
+        <span id="contador-carrito">
+
+            0
+
+        </span>
+
+    </a>
+
+</header>
+
+<!-- ========================= -->
+<!-- MAIN -->
+<!-- ========================= -->
+
+<main>
+
+    <!-- HERO -->
+
+    <section class="hero-categoria">
+
+        <h2>
+
+            Colección de Ropa
+
+        </h2>
+
+        <p>
+
+            Descubrí prendas diseñadas para acompañarte todos los días,
+            combinando comodidad, estilo y calidad.
+
+        </p>
+
+    </section>
+
+    <!-- PRODUCTOS -->
+
+    <section
+        id="productos"
+        class="productos"
+    >
+
+        <div class="titulo-seccion">
+
+            <h2>
+
+                Catálogo
+
+            </h2>
+
+            <p>
+
+                Encontrá la prenda ideal para completar tu outfit.
+
+            </p>
+
+        </div>
+
+        <!-- BUSCADOR Y FILTROS -->
+
+        <div class="controles-productos">
+
+            <input
+
+                type="search"
+
+                id="buscador"
+
+                placeholder="Buscar producto..."
+
+            >
+
+            <select id="filtro-categoria">
+
+                <option value="todos">
+
+                    Todas las categorías
+
+                </option>
+
+                <option value="camisas">
+
+                    Camisas
+
+                </option>
+
+                <option value="remeras">
+
+                    Remeras
+
+                </option>
+
+                <option value="chaquetas">
+
+                    Chaquetas
+
+                </option>
+
+                <option value="pantalones">
+
+                    Pantalones
+
+                </option>
+
+            </select>
+
+            <select id="orden-productos">
+
+                <option value="default">
+
+                    Ordenar por
+
+                </option>
+
+                <option value="precio-menor">
+
+                    Menor precio
+
+                </option>
+
+                <option value="precio-mayor">
+
+                    Mayor precio
+
+                </option>
+
+                <option value="nombre">
+
+                    Nombre A-Z
+
+                </option>
+
+            </select>
+
+        </div>
+
+        <!-- CONTENEDOR DE PRODUCTOS -->
+
+        <div
+
+            id="contenedor-productos"
+
+            class="contenedor-productos"
+
+        >
+
+        </div>
+
+    </section>
+
+</main>
+
+<!-- ========================= -->
+<!-- FOOTER -->
+<!-- ========================= -->
+
+<footer>
+
+    <p>
+
+        © 2026 VALEN - Todos los derechos reservados.
+
+    </p>
+
+</footer>
+
+<!-- ========================= -->
+<!-- JAVASCRIPT -->
+<!-- ========================= -->
+
+<script src="js/productos.js"></script>
+<script src="js/carrito.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>

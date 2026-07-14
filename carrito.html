@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+
+        Mi carrito | VALEN
+
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
+
+</head>
+
+<body data-categoria="carrito">
+
+<header>
+
+    <div class="logo">
+
+        <h1>
+
+            VALEN
+
+        </h1>
+
+    </div>
+
+    <nav>
+
+        <ul>
+
+            <li>
+
+                <a href="index.html">
+
+                    Inicio
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="ropa.html">
+
+                    Ropa
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="accesorios.html">
+
+                    Accesorios
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="resenas.html">
+
+                    Reseñas
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="contacto.html">
+
+                    Contacto
+
+                </a>
+
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <a
+
+        href="carrito.html"
+
+        class="carrito-icono"
+
+    >
+
+        🛒
+
+        <span id="contador-carrito">
+
+            0
+
+        </span>
+
+    </a>
+
+</header>
+
+<main>
+
+<section class="carrito">
+
+    <div class="titulo-seccion">
+
+        <h2>
+
+            Mi carrito
+
+        </h2>
+
+        <p>
+
+            Revisá tus productos antes de finalizar la compra.
+
+        </p>
+
+    </div>
+
+    <!-- Si el carrito está vacío -->
+
+    <div id="carrito-vacio">
+
+        <p>
+
+            Tu carrito está vacío.
+
+        </p>
+
+        <a href="index.html" class="btn">
+            Ver catálogo
+        </a>
+
+    </div>
+
+    <!-- Productos -->
+
+    <div
+
+        id="contenedor-carrito"
+
+        class="contenedor-carrito"
+
+    >
+
+    </div>
+
+    <!-- Resumen -->
+
+    <section
+
+        id="resumen-carrito"
+
+        class="resumen-carrito"
+
+    >
+
+        <h3>
+
+            Resumen de compra
+
+        </h3>
+
+        <div class="linea-total">
+
+            <span>
+
+                Subtotal
+
+            </span>
+
+            <span id="subtotal">
+
+                $0
+
+            </span>
+
+        </div>
+
+        <div class="linea-total">
+
+            <span>
+
+                Envío
+
+            </span>
+
+            <span>
+
+                Gratis
+
+            </span>
+
+        </div>
+
+        <div class="linea-total total-final">
+
+            <span>
+
+                Total
+
+            </span>
+
+            <span id="total">
+
+                $0
+
+            </span>
+
+        </div>
+
+        <div class="acciones-carrito">
+
+            <button
+
+                id="vaciar-carrito"
+
+                class="btn-secundario"
+
+            >
+
+                Vaciar carrito
+
+            </button>
+
+            <button
+
+                class="btn"
+
+                id="finalizar-compra"
+
+            >
+
+                Finalizar compra
+
+            </button>
+
+        </div>
+
+    </section>
+
+</section>
+
+</main>
+
+<footer>
+
+    <p>
+
+        © 2026 VALEN - Todos los derechos reservados.
+
+    </p>
+
+</footer>
+
+<script src="js/productos.js"></script>
+<script src="js/carrito.js"></script>
+
+</body>
+
+</html>
