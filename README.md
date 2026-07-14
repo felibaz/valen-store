@@ -7,5 +7,4 @@ Tecnologías Utilizadas
 - JavaScript (ES6+): Lógica funcional, manipulación dinámica del DOM, filtrado de productos, gestión del carrito y persistencia de datos mediante LocalStorage.
 - JSON: Gestión y organización de datos de productos.
 
-Autor
 Proyecto realizado por: María Felipa Bazano
